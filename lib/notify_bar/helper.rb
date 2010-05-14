@@ -34,8 +34,8 @@ module NotifyBar
 						close: #{opts[:close].to_s}
 						});
 					});
-		)
-	end
+			)
+		end
 
 	end
 end
