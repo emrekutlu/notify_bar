@@ -2,8 +2,7 @@ module NotifyBar
 	module Helper
 	
 		def notify_bar opts = {}
-			opts.reverse_merge! :flash => :notice,
-				:delay => 2000, :animation_speed => 'normal', :close => false			
+			opts.reverse_merge! :flash => :notice					
 
 			html = ''
 			
@@ -25,6 +24,7 @@ module NotifyBar
 		end
 
 		def notify_bar_js html, opts = {}
+			opts.reverse_merge! :delay => 2000, :animation_speed => 'normal', :close => false, :cls => 'notice'
 			%($(function () {
 					$.notifyBar({
 						html: '#{escape_javascript(html)}',
