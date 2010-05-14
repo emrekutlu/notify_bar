@@ -14,7 +14,9 @@ module NotifyBar
 				end
 			end
 
-			unless html.blank?
+			if html.blank?
+				''
+			else
 				javascript_tag do
 					notify_bar_js html, opts
 				end
