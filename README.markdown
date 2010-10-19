@@ -46,4 +46,4 @@ An example with all options:
 [Visit here](http://www.dmitri.me/misc/notify/) to see the explanations of the options.
 One special note for _cls_ , if _cls_ is not assigned _flash_ option is used for _cls_ .
 
-Copyright (c) 2010 İzzet Emre Kutlu, released under the MIT license
+Copyright (c) 2010 İ. Emre Kutlu, released under the MIT license
