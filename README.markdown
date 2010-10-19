@@ -9,7 +9,7 @@ You can visit [Dmitri's website](http://www.dmitri.me/misc/notify/) to see demos
 Installation
 ============
 
-    script/plugin install git://github.com/xasedy/notify_bar.git
+    script/plugin install git://github.com/emrekutlu/notify_bar.git
 
 Copy RAILS_ROOT/vendor/plugins/notify_bar/public/javascripts/jquery.notifyBar.js to RAILS_ROOT/public/javascripts directory.
 Copy RAILS_ROOT/vendor/plugins/notify_bar/public/stylesheets/jquery.notifyBar.css to RAILS_ROOT/public/stylesheets directory.
