@@ -7,11 +7,11 @@ js_dest_path	= File.join(current_dir, "..#{File::SEPARATOR}..#{File::SEPARATOR}.
 css_dest_path	= File.join(current_dir, "..#{File::SEPARATOR}..#{File::SEPARATOR}..#{File::SEPARATOR}", 'public', 'stylesheets', css_filename)
 
 if File.exists? js_dest_path
-	FileUtils.rm File.join(current_dir, 'public', 'javascripts', js_filename)
+	FileUtils.rm js_dest_path
 	p 'Javascript file removed!'
 end
 
 if File.exists? css_dest_path
-	FileUtils.rm File.join(current_dir, 'public', 'stylesheets', css_filename)
+	FileUtils.rm css_dest_path
 	p 'CSS file removed!'
 end
