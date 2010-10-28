@@ -11,9 +11,6 @@ Installation
 
     script/plugin install git://github.com/emrekutlu/notify_bar.git
 
-Copy RAILS_ROOT/vendor/plugins/notify_bar/public/javascripts/jquery.notifyBar.js to RAILS_ROOT/public/javascripts directory.
-Copy RAILS_ROOT/vendor/plugins/notify_bar/public/stylesheets/jquery.notifyBar.css to RAILS_ROOT/public/stylesheets directory.
-
 Usage
 =====
 
@@ -46,4 +43,4 @@ An example with all options:
 [Visit here](http://www.dmitri.me/misc/notify/) to see the explanations of the options.
 One special note for _cls_ , if _cls_ is not assigned _flash_ option is used for _cls_ .
 
-Copyright (c) 2010 İ. Emre Kutlu, released under the MIT license
+Copyright (c) 2010 [İ. Emre Kutlu](http://www.emrekutlu.com), released under the MIT license
