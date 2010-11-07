@@ -17,7 +17,9 @@ module NotifyBar
 				''
 			else
 				javascript_tag do
-					notify_bar_js html, opts
+					"$(document).ready(function() {
+						#{notify_bar_js html, opts}
+					});"
 				end
 			end
 			
